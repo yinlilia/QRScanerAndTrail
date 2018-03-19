@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">QRCodeScannerDemo</string>
+    <string name="capture_camera_failed">Camera disabled</string>
+    <string name="capture_hint">Put the qrcode in frame</string>
+    <string name="capture_flash">flash</string>
+    <string name="capture_back">back</string>
+    <string name="capture_title">QRCode Scanner</string>
+    <string name="capture_album">album</string>
+    <string name="connect">连接蓝牙</string>
+    <string name="start">开始</string>
+    <string name="disconnect">关闭用电器</string>
+    <string name="bluetoothStatus">未连接</string>
+    <string name="connectedbluetooth">已连接</string>
+    <string name="Opentheelectricalappliances">打开用电器</string>
+    <string name="capture_decode_failed">No QRCode found</string>
+    <string name="capture_decode_result_title">Scan Result</string>
+    <string name="capture_decode_result_open">Open</string>
+    <string name="capture_decode_result_copy">Copy</string>
+    <string name="history">历史记录</string>
+    <string name="action_settings">设置</string>
+    <string name="capture_decode_result_copy_hint">Already copy!</string>
+    <string name="scanning_result">扫描结果：</string>
+    <string name="version_code">软件版本号</string>
+    <string name="gps_result">当前的GPS信息</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".view.RegisterActivity"
+        android:background="@color/light_yellow"
+        android:weightSum="1">
+
+    <ImageView
+        android:layout_width="149dp"
+        android:layout_height="103dp"
+        android:background="@drawable/logo"
+        android:textColor="@android:color/black"
+        android:scaleType="centerInside"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:layout_margin="30dp"
+        android:background="@color/old_yellow"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/newuser"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:hint="USER_NAME(请输入11位数字)"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/newpass"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:hint="PASSWORD"
+            android:inputType="textPassword"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:hint="COMFIRM"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:padding="10dp"
+        android:text="LOGIN"
+        android:background="@drawable/button_style_selector"
+        android:textColor="@color/gray"
+        android:textSize="25dp" />
+</LinearLayout>
